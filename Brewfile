@@ -1,43 +1,59 @@
-cask_args appdir: '/Applications'
+# Conf
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+tap "caskroom/versions"
 
-tap 'homebrew/bundle'
-tap 'puma/puma'
+# Brew
+brew "openssl"
+brew "wget"
+brew "htop"
+brew "bat"
+brew "yarn"
 
-brew 'ack'
-brew 'coreutils'
-brew 'go'
-brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
-brew 'openssl'
-brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'puma/puma/puma-dev'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'unrar'
-brew 'wget'
-brew 'yarn'
-brew 'youtube-dl'
+# Casks
+cask "google-chrome"
+cask "java"
+cask "java7"
+cask "java8"
+cask "alfred"
+cask "caffeine"
+cask "sequel-pro"
+cask "slack"
+cask "vlc"
+cask "the-unarchiver"
+cask "firefox"
+cask "sourcetree"
+cask "eclipse-java"
+cask "android-studio"
+cask "tunnelblick"
+cask "charles"
+cask "cyberduck"
+cask "db-browser-for-sqlite"
+cask "docker"
+cask "kitematic"
+cask "dropbox"
+cask "fantastical"
+cask "jxplorer"
+cask "macdown"
+cask "moneymoney"
+cask "nextcloud"
+cask "omnigraffle"
+cask "overkill"
+cask "paw"
+cask "parallels10"
+cask "psequel"
+cask "robo-3t"
+cask "simpholders"
+cask "sublime-text"
+cask "superduper"
+cask "fastlane"
+cask "istat-menus5"
+cask "vanilla"
 
-cask '1password'
-cask 'adium'
-cask 'atom'
-cask 'firefox'
-cask 'garmin-express'
-cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
-cask 'slack'
-cask 'steam'
-cask 'transmission'
-cask 'tunnelbear'
-cask 'vlc'
+# AppStore
+# mas Asset Catalog Creator
+mas "magnet", id:441258766
+mas "ssh-proxy", id:597790822
+mas "things", id:904280696
+mas "xcode", id:497799835
+mas "1password", id:443987910
