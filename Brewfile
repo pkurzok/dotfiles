@@ -51,6 +51,16 @@ cask "fastlane"
 cask "istat-menus5"
 cask "vanilla"
 
+# Quicklook Plugins
+# Preview source code files with syntax highlighting
+cask "qlcolorcode"
+# Preview plain text files without or with unknown file extension. Example: README, CHANGELOG, index.styl, etc.
+cask "qlstephen"
+# Preview Markdown files
+cask "qlmarkdown"
+# Preview JSON files
+cask "quicklook-json"
+
 # AppStore
 # mas Asset Catalog Creator
 mas "magnet", id:441258766
