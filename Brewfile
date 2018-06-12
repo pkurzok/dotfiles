@@ -13,6 +13,7 @@ brew "yarn"
 # Casks
 cask "google-chrome"
 cask "java"
+cask "java6"
 cask "java7"
 cask "java8"
 cask "alfred"
