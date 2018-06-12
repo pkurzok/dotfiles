@@ -39,3 +39,6 @@ defaults write com.apple.Safari ShowFavoritesBar -bool false
 # defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 # defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 # defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# QuickLook doesn't allow selecting text by default.
+defaults write com.apple.finder QLEnableTextSelection -bool true
