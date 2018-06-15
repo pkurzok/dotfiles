@@ -9,6 +9,8 @@ brew "wget"
 brew "htop"
 brew "bat"
 brew "yarn"
+brew "nvm"
+brew "maven"
 
 # Casks
 cask "google-chrome"

@@ -2,5 +2,5 @@
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias brewupgrade='brew update && brew upgrade && brew cleanup'
+alias brewupgrade='brew update && brew upgrade && brew cask upgrade && brew cleanup && brew cask cleanup'
 alias cat=bat

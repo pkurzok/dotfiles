@@ -2,7 +2,7 @@ export EDITOR='nano'
 
 # This loads nvm
 export NVM_DIR="/Users/pkurzok/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
+. "/usr/local/opt/nvm/nvm.sh" 
 
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 export ANT_HOME=~/DIP/apache-ant-1.8.4
