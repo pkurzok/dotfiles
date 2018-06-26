@@ -12,6 +12,7 @@ brew "yarn"
 brew "nvm"
 brew "maven"
 brew "cocoapods"
+brew "testdisk"
 
 # Casks
 cask "google-chrome"
