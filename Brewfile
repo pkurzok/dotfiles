@@ -13,6 +13,7 @@ brew "nvm"
 brew "maven"
 brew "cocoapods"
 brew "testdisk"
+brew "hugo"
 
 # Casks
 cask "google-chrome"
@@ -21,14 +22,13 @@ cask "java6"
 cask "java7"
 cask "java8"
 cask "alfred"
-cask "caffeine"
 cask "sequel-pro"
 cask "slack"
 cask "vlc"
 cask "the-unarchiver"
 cask "firefox"
 cask "sourcetree"
-cask "eclipse-java"
+cask "eclipse-ide"
 cask "android-studio"
 cask "tunnelblick"
 cask "charles"
@@ -69,5 +69,6 @@ cask "quicklook-json"
 mas "magnet", id:441258766
 mas "ssh-proxy", id:597790822
 mas "things", id:904280696
-mas "xcode", id:497799835
 mas "1password", id:443987910
+mas "outlineedit", id:878995413
+mas "amphetamine", id:937984704

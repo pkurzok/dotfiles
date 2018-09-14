@@ -42,3 +42,6 @@ defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 # QuickLook doesn't allow selecting text by default.
 defaults write com.apple.finder QLEnableTextSelection -bool true
+
+# Set AAC Codec for Bluetooth
+defaults write bluetoothaudiod "Enable AAC codec" -bool true
