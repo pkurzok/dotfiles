@@ -14,4 +14,5 @@ export PATH=$PATH:$ANT_HOME/bin
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 export FASTLANE_USER="appleci@prodyna.com"
+export ANDROID_HOME=~/Library/Android/sdk
 
