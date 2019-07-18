@@ -36,7 +36,6 @@ cask "cyberduck"
 cask "db-browser-for-sqlite"
 cask "docker"
 cask "kitematic"
-cask "dropbox"
 cask "fantastical"
 cask "jxplorer"
 cask "macdown"
@@ -47,12 +46,11 @@ cask "overkill"
 cask "paw"
 cask "psequel"
 cask "robo-3t"
-cask "simpholders"
 cask "sublime-text"
 cask "superduper"
 cask "fastlane"
 cask "istat-menus5"
-cask "vanilla"
+cask "1password"
 
 # Quicklook Plugins
 # Preview source code files with syntax highlighting
@@ -69,6 +67,5 @@ cask "quicklook-json"
 mas "magnet", id:441258766
 mas "ssh-proxy", id:597790822
 mas "things", id:904280696
-mas "1password", id:443987910
 mas "outlineedit", id:878995413
 mas "amphetamine", id:937984704
