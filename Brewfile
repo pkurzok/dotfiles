@@ -13,24 +13,27 @@ brew "nvm"
 brew "maven"
 brew "cocoapods"
 brew "testdisk"
-brew "hugo"
+brew "tldr"
 
 # Casks
+cask "aerial"
+cask "appcleaner"
+cask "boxcryptor"
+cask "deepl"
+cask "fork"
+cask "franz"
 cask "google-chrome"
+cask "iina"
+cask "handbrake"
+cask "intellij-idea"
 cask "java"
-cask "java6"
-cask "java7"
 cask "java8"
+cask "macpass"
 cask "alfred"
 cask "sequel-pro"
-cask "slack"
-cask "vlc"
 cask "the-unarchiver"
-cask "firefox"
-cask "sourcetree"
 cask "eclipse-ide"
 cask "android-studio"
-cask "tunnelblick"
 cask "charles"
 cask "cyberduck"
 cask "db-browser-for-sqlite"
@@ -42,15 +45,20 @@ cask "macdown"
 cask "moneymoney"
 cask "nextcloud"
 cask "omnigraffle"
-cask "overkill"
 cask "paw"
-cask "psequel"
 cask "robo-3t"
 cask "sublime-text"
 cask "superduper"
 cask "fastlane"
 cask "istat-menus5"
 cask "1password"
+cask "microsoft-teams"
+cask "mactracker"
+cask "macpass"
+cask "tripmode"
+cask "virtualbox"
+cask "viscosity"
+cask "yammer"
 
 # Quicklook Plugins
 # Preview source code files with syntax highlighting
@@ -69,3 +77,8 @@ mas "ssh-proxy", id:597790822
 mas "things", id:904280696
 mas "outlineedit", id:878995413
 mas "amphetamine", id:937984704
+mas "1blocker", id:1107421413
+mas "microsoft-office-365", id:1450038993
+mas "airmail-3", id:918858936
+mas "asset-catalog-creator", id:866571115
+mas "pixelmator", id:407963104
