@@ -41,3 +41,4 @@ ZSH_THEME="smyck"
 source $ZSH/oh-my-zsh.sh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
