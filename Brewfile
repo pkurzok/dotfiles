@@ -1,24 +1,24 @@
 # Conf
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
-tap "caskroom/versions"
+tap "homebrew/cask-versions"
 
 # Brew
 brew "bat"
 brew "cocoapods"
 brew "htop"
-brew "maven"
-brew "nvm"
+brew "kubectl"
+# brew "nvm"
 brew "openssl"
+brew "ruby"
 brew "testdisk"
 brew "tldr"
 brew "wget"
-brew "yarn"
+# brew "yarn"
 
 # Casks
 cask "1password"
 cask "aerial"
-cask "alfred"
+cask "alfred3"
 cask "android-studio"
 cask "appcleaner"
 cask "boxcryptor"
@@ -37,7 +37,8 @@ cask "handbrake"
 cask "iina"
 cask "intellij-idea"
 cask "istat-menus5"
-cask "java8"
+cask "iterm2"
+# cask "java8"      # Public download is gone
 cask "java11"
 cask "jxplorer"
 cask "kitematic"
@@ -59,6 +60,9 @@ cask "tripmode"
 cask "virtualbox"
 cask "viscosity"
 cask "yammer"
+
+ # Need to install Java first...
+brew "maven" 
 
 # Quicklook Plugins
 # Preview source code files with syntax highlighting
