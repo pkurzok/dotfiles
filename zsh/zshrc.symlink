@@ -39,3 +39,13 @@ ZSH_THEME="smyck"
 
 # Entrypoint for oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/pkurzok/.sdkman"
+[[ -s "/Users/pkurzok/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/pkurzok/.sdkman/bin/sdkman-init.sh"
+
+RPROMPT="$RPROMPT $(java -version 2>&1 | head -n 1 | cut -d'"' -f2)"
