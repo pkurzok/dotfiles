@@ -4,3 +4,4 @@
 # For a full list of active aliases, run `alias`.
 alias brewupgrade='brew update && brew upgrade && brew cask upgrade && brew cleanup'
 alias cat=bat
+alias ls=exa

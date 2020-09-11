@@ -3,6 +3,8 @@ cask_args appdir: "/Applications"
 tap "homebrew/cask-versions"
 
 # Brew
+brew "broot"
+brew "exa"
 brew "bat"
 brew "cocoapods"
 brew "htop"
@@ -44,11 +46,9 @@ cask "jxplorer"
 cask "kitematic"
 cask "macdown"
 cask "macpass"
-cask "macpass"
 cask "mactracker"
 cask "microsoft-teams"
 cask "moneymoney"
-cask "nextcloud"
 cask "omnigraffle"
 cask "paw"
 cask "robo-3t"
@@ -77,12 +77,9 @@ cask "quicklook-json"
 # AppStore
 # mas Asset Catalog Creator
 mas "1blocker", id:1107421413
-mas "airmail-3", id:918858936
 mas "amphetamine", id:937984704
 mas "asset-catalog-creator", id:866571115
 mas "magnet", id:441258766
 mas "microsoft-office-365", id:1450038993
 mas "outlineedit", id:878995413
-mas "pixelmator", id:407963104
 mas "ssh-proxy", id:597790822
-mas "things", id:904280696

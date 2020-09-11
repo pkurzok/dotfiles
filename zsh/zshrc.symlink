@@ -40,7 +40,7 @@ ZSH_THEME="smyck"
 # Entrypoint for oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-export PATH="$HOME/.fastlane/bin:$PATH"
+# export PATH="$HOME/.fastlane/bin:$PATH"
 
 if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
 
@@ -48,4 +48,18 @@ if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
 export SDKMAN_DIR="/Users/pkurzok/.sdkman"
 [[ -s "/Users/pkurzok/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/pkurzok/.sdkman/bin/sdkman-init.sh"
 
-RPROMPT="$RPROMPT $(java -version 2>&1 | head -n 1 | cut -d'"' -f2)"
+# Shows the version, but doesnt update on change :(
+# RPROMPT="$RPROMPT $(java -version 2>&1 | head -n 1 | cut -d'"' -f2)"
+export PATH="/usr/local/sbin:$PATH"
+
+# Add LR Helper
+source $HOME/dotfiles/script/liferay-helper.sh
+
+
+###-tns-completion-start-###
+if [ -f /Users/pkurzok/.tnsrc ]; then 
+    source /Users/pkurzok/.tnsrc 
+fi
+###-tns-completion-end-###
+
+source /Users/pkurzok/.config/broot/launcher/bash/br
